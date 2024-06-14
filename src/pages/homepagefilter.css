@@ -1,0 +1,206 @@
+/* Filters.css */
+.filter-sidebar {
+  /* position: sticky; */
+  top:0;
+  height: 100vh;
+  overflow-y: auto;
+  border-right: 1px solid #ddd;
+  padding: 15px
+}
+.product-container {
+    margin-left: 40px; 
+    padding: 0px;
+  }
+
+.filter-section {
+  margin-bottom: 20px;
+}
+
+.filter-section h4 {
+  text-align: center;
+  font-size: 18px;
+  color: #333;
+}
+
+.filter-options {
+  display: flex;
+  flex-direction: column;
+}
+
+.checkbox-label {
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #555;
+}
+
+.filter-button {
+  margin-top: 20px;
+}
+
+/* Add any other custom styles as needed */
+
+ 
+.d-flex .btn-secondary{
+ 
+    all: unset;
+    width: 170px;
+    height: 30px;
+    font-size: 16px;
+    background: transparent;
+    border: none;
+    position: relative;
+    color: #f0f0f0;
+    cursor: pointer;
+    z-index: 1;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .d-flex .btn-secondary::after,
+  .d-flex .btn-secondary::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -99999;
+    transition: all .4s;
+  }
+  
+  .d-flex .btn-secondary::before {
+    transform: translate(0%, 0%);
+    width: 100%;
+    height: 100%;
+    background: #28282d;
+    border-radius: 10px;
+  }
+  
+  
+  
+  .d-flex .btn-secondary:hover::before {
+    transform: translate(5%, 20%);
+    width: 110%;
+    height: 110%;
+  }
+  
+  .d-flex .btn-secondary:hover::after {
+    border-radius: 10px;
+    transform: translate(0, 0);
+    width: 110%;
+    height: 100%;
+  }
+  
+  .d-flex .btn-secondary:active::after {
+    transition: 0s;
+    transform: translate(0, 5%);
+  }
+  .d-flex .btn-primary{
+
+    all: unset;
+    width: 170px;
+    height: 30px;
+    font-size: 16px;
+    background: transparent;
+    border: none;
+    position: relative;
+    color: #f0f0f0;
+    cursor: pointer;
+    z-index: 1;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .d-flex .btn-primary::after,
+  .d-flex .btn-primary::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -99999;
+    transition: all .4s;
+  }
+  
+  .d-flex .btn-primary::before {
+    transform: translate(0%, 0%);
+    width: 100%;
+    height: 100%;
+    background: #28282d;
+    border-radius: 10px;
+  }
+  
+  
+  
+  .d-flex .btn-primary:hover::before {
+    transform: translate(5%, 20%);
+    width: 110%;
+    height: 110%;
+  }
+  
+  .d-flex .btn-primary:hover::after {
+    border-radius: 10px;
+    transform: translate(0, 0);
+    width: 100%;
+    height: 100%;
+  }
+  
+  .d-flex .btn-primary:active::after {
+    transition: 0s;
+    transform: translate(0, 5%);
+  }
+
+
+.space{
+  padding-top:7px;
+}
+
+.d-flex .btn-danger{
+
+  margin: 10px;
+  padding: 15px 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: block;
+  border: 0px;
+  font-weight: 700;
+  box-shadow: 0px 0px 14px -7px #f09819;
+  background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.d-flex .btn-danger:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.d-flex .btn-danger:active {
+  transform: scale(0.95);
+}
+.d-flex .card{
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+ 
+  
+}
+.card-body .card-text-price{
+  font-weight:bold;
+  font-size:22px;
+}

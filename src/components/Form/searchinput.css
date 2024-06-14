@@ -1,0 +1,19 @@
+.d-flex input{
+    padding: 5px 100px;
+    margin-top:17px;
+}
+.d-flex .btns{
+  margin-top:17px;
+  color:#F4CE14;
+  background:#000000;
+  padding:4px;
+  border-radius:5px;
+  border: 2px solid #F4CE14;
+}
+.d-flex .btns:hover{
+    margin-top:17px;
+    background:#F4CE14;;
+    color:#000000;
+    
+  }
+
